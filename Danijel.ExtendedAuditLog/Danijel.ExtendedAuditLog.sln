@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrmPackage", "CrmPackage\CrmPackage.csproj", "{4238F6CF-B097-4639-BEFB-12EEA3AF5094}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11A3A086-2620-432D-A9EF-1BE16D3A0F48} = {11A3A086-2620-432D-A9EF-1BE16D3A0F48}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanijelExtendedAuditLogPackage", "DanijelExtendedAuditLogPackage\DanijelExtendedAuditLogPackage.csproj", "{11A3A086-2620-432D-A9EF-1BE16D3A0F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4238F6CF-B097-4639-BEFB-12EEA3AF5094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4238F6CF-B097-4639-BEFB-12EEA3AF5094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4238F6CF-B097-4639-BEFB-12EEA3AF5094}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4238F6CF-B097-4639-BEFB-12EEA3AF5094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4238F6CF-B097-4639-BEFB-12EEA3AF5094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4238F6CF-B097-4639-BEFB-12EEA3AF5094}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{11A3A086-2620-432D-A9EF-1BE16D3A0F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A3A086-2620-432D-A9EF-1BE16D3A0F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A3A086-2620-432D-A9EF-1BE16D3A0F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A3A086-2620-432D-A9EF-1BE16D3A0F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {421C1154-A9A4-4826-937C-99BC568C802D}
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
+	EndGlobalSection
+EndGlobal
